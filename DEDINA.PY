@@ -1,10 +1,3 @@
-
-def build_tree(pos):
-    # kmeň
-    for y in range(4):
-        blocks.place(Block.LOG_DARK_OAK, positions.add(pos, world(0, y, 0)))
-
-
 def build_house():
     width = 7
     length = 10
@@ -50,8 +43,6 @@ def build_house():
                     Block.SMOOTH_STONE_SLAB,
                     positions.add(offset, world(x, height, z))
                 )
-
-      
 
 
 player.on_chat("dom", build_house)
