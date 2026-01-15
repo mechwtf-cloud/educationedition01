@@ -69,3 +69,7 @@ def build_house():
         )
 
 player.on_chat("dom", build_house)
+
+
+
+samovrazda
